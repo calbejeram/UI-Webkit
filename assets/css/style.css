@@ -1,0 +1,35 @@
+#header,
+#footer {
+    background-color: rgb(247, 222, 227);
+}
+
+/* Hero Section */
+#hero .hero .hero-content {
+    width: 200px;
+}
+
+/* Webkit Section */
+.card-img-top img {
+    height: 100px;
+}
+
+#webkit {
+    background-color: rgb(157, 198, 157);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (min-width: 992px) {
+    .card-1,
+    .card-3 {
+    transform: translateY(-40px);
+    }
+
+    .card-2,
+    .card-4 {
+        transform: translateY(40px);
+    }
+}
